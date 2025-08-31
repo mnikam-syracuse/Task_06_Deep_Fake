@@ -1,0 +1,2 @@
+Role: Guest/Analyst
+Tone: Confident, evidence-driven. Include at least one trade-off in each answer.

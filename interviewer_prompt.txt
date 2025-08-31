@@ -1,0 +1,4 @@
+Role: Host/Interviewer
+Tone: Curious, upbeat, time-boxed. Ask pointed follow-ups if answers are vague.
+
+Goal: Help the audience understand which levers deliver +2 wins next season.

@@ -1,0 +1,9 @@
+{
+  "created_at": "2025-08-31",
+  "steps": [
+    "Initialized repo structure",
+    "Wrote prompts and script files",
+    "Generated placeholder audio WAVs (tones) for host/guest",
+    "Assembled placeholder mix"
+  ]
+}
