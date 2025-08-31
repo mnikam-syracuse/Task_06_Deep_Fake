@@ -37,3 +37,59 @@ Task_06_Deep_Fake/
    └─ run_log_2025-08-31.json
 ```
 
+
+---
+
+## 🔧 Tools & Methods  
+
+### Tools Explored  
+- 🗣️ **ElevenLabs** – natural voices, used for final host/guest audio.  
+- 🖥️ **Coqui TTS** – open-source offline tool, tested for reproducibility.  
+- 🎛️ **Audacity / Online Audio Joiners** – used for merging files when needed.  
+- 🐍 **Python Scripts** – automation for splitting and combining text/audio.  
+
+### Workflow Summary  
+1. Drafted **script** in `assets/interview_script.md`.  
+2. Split into **host_lines.txt** and **guest_lines.txt`**.  
+3. Generated audio separately in ElevenLabs (two different voices).  
+4. Exported files → `interview_host.wav` + `interview_guest.wav`.  
+5. Combined them into **one file** → `interview_mix.wav`.  
+6. Documented process, ethics, and time reporting.  
+
+---
+
+## 🔄 Process & Reflection  
+
+### 1. Initial Planning  
+- Converted narrative into Q&A dialogue with Host + Guest.  
+- Wrote **role-based prompts** for clarity (system, host, guest).  
+
+### 2. Tool Exploration  
+- Tried **Coqui TTS** (free but robotic).  
+- Settled on **ElevenLabs** (natural, but free tier has limits).  
+- Used **Audacity / Python scripts** for audio assembly.  
+
+### 3. Execution  
+- Generated Host and Guest audio separately.  
+- Merged into one interview file.  
+- Added ethics statement & documentation.  
+
+### 4. Challenges  
+- ElevenLabs doesn’t support true multi-speaker → solved by generating separately.  
+- Some mispronunciations required rewriting lines.  
+- Balancing realism with ethics (ensured clear AI-labeling).  
+
+### 5. Lessons Learned  
+- **Process > Product** → documenting choices/trade-offs is key.  
+- Free tools are enough if combined smartly.  
+- Reproducibility matters (scripts + repo structure).  
+
+### 6. Reflection  
+This task showed how to move from **static text** to **dynamic audio** while balancing technical, ethical, and workflow challenges. The final interview file is important, but the real value lies in the **structured process and clear documentation**.  
+
+---
+
+## 🔊 Results  
+- Final AI-generated interview:  
+
+
